@@ -1,22 +1,25 @@
+using System.Text;
+
 namespace LabbUppgifter;
 
 public class LookSay
 {
-    public string GetLookSay(string inputText)
+    public static string GetLookSay(string inputText)
     {
-        // 1 = 11
+        if (inputText == "" || inputText == null)
+        {
+            return "";
+        }
+        
+        StringBuilder stringBuilder = new("");
         var total = 1;
-        // 2= 12
-        // 11 = 21
-        // 111222333 = 313233
-        var totalString = "";
         var number = inputText[0];
         for (int i = 0; i < inputText.Length; i++)
         {
             if (i + 1 >= inputText.Length)
             {
-                totalString += $"{total}{number}";
-                return totalString;
+                stringBuilder.Append($"{total}{number}");
+                return stringBuilder.ToString();
             }
             if (inputText[i] == inputText[i + 1])
             {
@@ -24,16 +27,15 @@ public class LookSay
             }
             else
             {
-                totalString += $"{total}{number}";
+                stringBuilder.Append($"{total}{number}");
                 total = 1;
                 number = inputText[i + 1];
-                
             }
         }
-        return totalString;
+        return stringBuilder.ToString();
     }
 
-    public string GetLookSay(string inputText, int timesToRepeat)
+    public static string GetLookSayRepeatedTimes(string inputText, int timesToRepeat)
     {
         var result = inputText; 
            

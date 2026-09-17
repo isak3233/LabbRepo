@@ -1,6 +1,5 @@
 ﻿using LabbUppgifter;
 
-var lookSay = new LookSay();
-var result = lookSay.GetLookSay("3113322113", 40);
+var result = LookSay.GetLookSayRepeatedTimes("3113322113", 50);
 
 Console.WriteLine(result.Length);

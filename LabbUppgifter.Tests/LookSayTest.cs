@@ -7,11 +7,9 @@ public class LookSayTest
     {
         string inputText = "1";
         string expectedText = "11";
-        var sut = new LookSay();
+
         
-        var actual = sut.GetLookSay(inputText);
-        
-        Assert.Equal(expectedText, actual);
+        Assert.Equal(expectedText, LookSay.GetLookSay(inputText));
     }
 
     [Theory]
@@ -20,11 +18,8 @@ public class LookSayTest
     [InlineData("56", "1516")]
     public void LookSay_KnownNumber_ReturnsLookSayResult(string inputText, string expectedResult)
     {
-        var sut = new LookSay();
         
-        var actual = sut.GetLookSay(inputText);
-        
-        Assert.Equal(expectedResult, actual);
+        Assert.Equal(expectedResult, LookSay.GetLookSay(inputText));
     }
 
     [Theory]
@@ -32,12 +27,10 @@ public class LookSayTest
     [InlineData("2", "3112", 3)]
     [InlineData("2","2",0)]
     [InlineData("12","1112", 1)]
+    [InlineData("", "", 2)]
     public void LookSay_KnownNumber_RepeatedFiveTimes_ReturnsLookSayResult(string inputText, string expectedResult, int timesToRepeat)
     {
-        var sut = new LookSay();
-        
-        var actual = sut.GetLookSay(inputText, timesToRepeat);
-        Assert.Equal(expectedResult, actual);
+        Assert.Equal(expectedResult, LookSay.GetLookSayRepeatedTimes(inputText, timesToRepeat));
     }
 }
 
