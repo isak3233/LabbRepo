@@ -11,6 +11,20 @@ public class LookSayTest
         
         var actual = sut.GetLookSay(inputText);
         
-        Assert.Equal(actual, expectedText);
+        Assert.Equal(expectedText, actual);
+    }
+
+    [Theory]
+    [InlineData("1", "11")]
+    [InlineData("2", "12")]
+    [InlineData("56", "1516")]
+    public void LookSay_KnownNumber_ReturnsLookSayResult(string inputText, string expectedResult)
+    {
+        var sut = new LookSay();
+        
+        var actual = sut.GetLookSay(inputText);
+        
+        Assert.Equal(expectedResult, actual);
     }
 }
+
