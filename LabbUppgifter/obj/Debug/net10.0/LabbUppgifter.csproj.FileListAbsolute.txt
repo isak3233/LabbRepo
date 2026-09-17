@@ -1,0 +1,14 @@
+C:\Users\isak\RiderProjects\LabbUppgifter\LabbUppgifter\bin\Debug\net10.0\LabbUppgifter.exe
+C:\Users\isak\RiderProjects\LabbUppgifter\LabbUppgifter\bin\Debug\net10.0\LabbUppgifter.deps.json
+C:\Users\isak\RiderProjects\LabbUppgifter\LabbUppgifter\bin\Debug\net10.0\LabbUppgifter.runtimeconfig.json
+C:\Users\isak\RiderProjects\LabbUppgifter\LabbUppgifter\bin\Debug\net10.0\LabbUppgifter.dll
+C:\Users\isak\RiderProjects\LabbUppgifter\LabbUppgifter\bin\Debug\net10.0\LabbUppgifter.pdb
+C:\Users\isak\RiderProjects\LabbUppgifter\LabbUppgifter\obj\Debug\net10.0\LabbUppgifter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isak\RiderProjects\LabbUppgifter\LabbUppgifter\obj\Debug\net10.0\LabbUppgifter.AssemblyInfoInputs.cache
+C:\Users\isak\RiderProjects\LabbUppgifter\LabbUppgifter\obj\Debug\net10.0\LabbUppgifter.AssemblyInfo.cs
+C:\Users\isak\RiderProjects\LabbUppgifter\LabbUppgifter\obj\Debug\net10.0\LabbUppgifter.csproj.CoreCompileInputs.cache
+C:\Users\isak\RiderProjects\LabbUppgifter\LabbUppgifter\obj\Debug\net10.0\LabbUppgifter.dll
+C:\Users\isak\RiderProjects\LabbUppgifter\LabbUppgifter\obj\Debug\net10.0\refint\LabbUppgifter.dll
+C:\Users\isak\RiderProjects\LabbUppgifter\LabbUppgifter\obj\Debug\net10.0\LabbUppgifter.pdb
+C:\Users\isak\RiderProjects\LabbUppgifter\LabbUppgifter\obj\Debug\net10.0\LabbUppgifter.genruntimeconfig.cache
+C:\Users\isak\RiderProjects\LabbUppgifter\LabbUppgifter\obj\Debug\net10.0\ref\LabbUppgifter.dll
