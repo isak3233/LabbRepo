@@ -26,5 +26,18 @@ public class LookSayTest
         
         Assert.Equal(expectedResult, actual);
     }
+
+    [Theory]
+    [InlineData("1", "312211", 5)]
+    [InlineData("2", "3112", 3)]
+    [InlineData("2","2",0)]
+    [InlineData("12","1112", 1)]
+    public void LookSay_KnownNumber_RepeatedFiveTimes_ReturnsLookSayResult(string inputText, string expectedResult, int timesToRepeat)
+    {
+        var sut = new LookSay();
+        
+        var actual = sut.GetLookSay(inputText, timesToRepeat);
+        Assert.Equal(expectedResult, actual);
+    }
 }
 

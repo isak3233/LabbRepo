@@ -32,4 +32,18 @@ public class LookSay
         }
         return totalString;
     }
+
+    public string GetLookSay(string inputText, int timesToRepeat)
+    {
+        var result = inputText; 
+           
+        for (int i = 0; i < timesToRepeat; i++)
+        {
+            result = GetLookSay(result);
+        }
+        return result;
+        
+    }
+    
+    
 }
