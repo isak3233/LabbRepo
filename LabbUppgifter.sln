@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabbUppgifter", "LabbUppgifter\LabbUppgifter.csproj", "{52D3C170-DB8D-4471-9D29-74A7FF6153C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabbUppgifter.Tests", "LabbUppgifter.Tests\LabbUppgifter.Tests.csproj", "{C1C2D253-13F5-44D6-A538-A4E25F20149B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52D3C170-DB8D-4471-9D29-74A7FF6153C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D3C170-DB8D-4471-9D29-74A7FF6153C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D3C170-DB8D-4471-9D29-74A7FF6153C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D3C170-DB8D-4471-9D29-74A7FF6153C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1C2D253-13F5-44D6-A538-A4E25F20149B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1C2D253-13F5-44D6-A538-A4E25F20149B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1C2D253-13F5-44D6-A538-A4E25F20149B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1C2D253-13F5-44D6-A538-A4E25F20149B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
