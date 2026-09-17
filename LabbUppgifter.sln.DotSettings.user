@@ -3,5 +3,8 @@
   &lt;Solution /&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9a6286c3_002D9faf_002D4f79_002Dadac_002D47a03afea32e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from LookSayTest.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;ProjectFile&gt;C1C2D253-13F5-44D6-A538-A4E25F20149B/f:LookSayTest.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;ProjectFile&gt;C1C2D253-13F5-44D6-A538-A4E25F20149B/f:LookSayTest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;C1C2D253-13F5-44D6-A538-A4E25F20149B/f:RocketEquationTest.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
