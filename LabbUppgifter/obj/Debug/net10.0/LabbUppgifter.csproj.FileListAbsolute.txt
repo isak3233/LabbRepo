@@ -13,3 +13,4 @@ C:\Users\isak\RiderProjects\LabbUppgifter\LabbUppgifter\obj\Debug\net10.0\LabbUp
 C:\Users\isak\RiderProjects\LabbUppgifter\LabbUppgifter\obj\Debug\net10.0\LabbUppgifter.genruntimeconfig.cache
 C:\Users\isak\RiderProjects\LabbUppgifter\LabbUppgifter\obj\Debug\net10.0\ref\LabbUppgifter.dll
 C:\Users\isak\RiderProjects\LabbUppgifter\LabbUppgifter\bin\Debug\net10.0\Input.txt
+C:\Users\isak\RiderProjects\LabbUppgifter\LabbUppgifter\obj\Debug\net10.0\LabbUppgifter.sourcelink.json

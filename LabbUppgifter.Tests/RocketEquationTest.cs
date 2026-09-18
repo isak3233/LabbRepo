@@ -10,7 +10,7 @@ public class RocketEquationTest
     public void Calculate_MassDividedByThree_MinusTwo_RoundedDown_ReturnsExpected(int mass, int expectedResult)
     {
         var result = RocketEquation.CalculateFuelByMass(mass);
-        
+
         Assert.Equal(expectedResult, result);
     }
 
@@ -23,8 +23,8 @@ public class RocketEquationTest
         Assert.Equal(expectedResult, RocketEquation.CalculateFuelNeededForExtraFuel(mass));
     }
     //Arrange
-    
+
     //Act
     //Assert
-    
+
 }

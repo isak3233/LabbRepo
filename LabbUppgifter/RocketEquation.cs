@@ -22,7 +22,7 @@ public class RocketEquation
             }
             totalFuelNeeded += calculatedFuel;
         }
-        
+
         return totalFuelNeeded;
     }
 }
