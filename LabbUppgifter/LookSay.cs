@@ -37,7 +37,7 @@ public class LookSay
 
     public static string GetLookSayRepeatedTimes(string inputText, int timesToRepeat)
     {
-        var result = inputText; 
+        var result = inputTex
            
         for (int i = 0; i < timesToRepeat; i++)
         {
