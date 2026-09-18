@@ -18,6 +18,7 @@ jobs:
           HANDELSE: ${{github.event_name}}
           GREN: ${{github.ref_name}}
         run: |
+          echo "$GITHUB_STEB_SUMMARY"
           echo "### Startad av $STARTAD_AV — händelse: $HANDELSE — gren: $GREN" >> $GITHUB_STEP_SUMMARY
   build-and-test:
     name: Bygg och testa
