@@ -15,7 +15,7 @@ public class LookSayTest
     [Theory]
     [InlineData("1", "11")]
     [InlineData("2", "12")]
-    [InlineData("56", "1516")]
+    [InlineData("56", "15161")]
     public void LookSay_KnownNumber_ReturnsLookSayResult(string inputText, string expectedResult)
     {
         
