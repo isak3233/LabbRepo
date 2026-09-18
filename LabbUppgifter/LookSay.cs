@@ -10,7 +10,7 @@ public class LookSay
         {
             return "";
         }
-        
+
         StringBuilder stringBuilder = new("");
         var total = 1;
         var number = inputText[0];
@@ -38,14 +38,14 @@ public class LookSay
     public static string GetLookSayRepeatedTimes(string inputText, int timesToRepeat)
     {
         var result = inputText;
-           
+
         for (int i = 0; i < timesToRepeat; i++)
         {
             result = GetLookSay(result);
         }
         return result;
-        
+
     }
-    
-    
+
+
 }

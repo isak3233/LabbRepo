@@ -8,7 +8,7 @@ public class LookSayTest
         string inputText = "1";
         string expectedText = "11";
 
-        
+
         Assert.Equal(expectedText, LookSay.GetLookSay(inputText));
     }
 
@@ -18,15 +18,15 @@ public class LookSayTest
     [InlineData("56", "1516")]
     public void LookSay_KnownNumber_ReturnsLookSayResult(string inputText, string expectedResult)
     {
-        
+
         Assert.Equal(expectedResult, LookSay.GetLookSay(inputText));
     }
 
     [Theory]
     [InlineData("1", "312211", 5)]
     [InlineData("2", "3112", 3)]
-    [InlineData("2","2",0)]
-    [InlineData("12","1112", 1)]
+    [InlineData("2", "2", 0)]
+    [InlineData("12", "1112", 1)]
     [InlineData("", "", 2)]
     public void LookSay_KnownNumber_RepeatedFiveTimes_ReturnsLookSayResult(string inputText, string expectedResult, int timesToRepeat)
     {
